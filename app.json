@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "revendeursacr",
-    "slug": "revendeursacr",
-    "version": "1.0.0",
+    "name": "ACR Revendeurs",
+    "slug": "ACRRevendeurs",
+    "version": "1.0.2",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -21,13 +21,20 @@
       "supportsTablet": true
     },
     "android": {
+      "versionCode": 3,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.darkonis.ACRRevendeurs"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "28a36aa8-e4c8-4609-b05f-5640be226305"
+      }
     }
   }
 }

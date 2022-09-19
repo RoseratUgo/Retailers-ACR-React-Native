@@ -1,19 +1,17 @@
 import React from 'react';
-import HomeScreen from './src/screens/HomeScreen';
-import RevendeurTypes from './src/components/RevendeurTypes'
-import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import { View, Image, Text, StyleSheet } from 'react-native';
+import { View, ScrollView, Image, Text } from 'react-native';
+import styles from './styles.js'
 
-const Stack = createNativeStackNavigator();
+const UberTypeRow = () => {
 
-function Revendeur0({ navigation }) {
-  return(
-    <View style={styles.container}>
+    return (
+      <ScrollView>
+        <View>
+          <View style={styles.container}>
 
             <Image
                 style={styles.image}
-                source={require('./src/assets/images/error.jpg')}
+                source={require('../../../src/assets/images/error.jpg')}
             />
 
             <View style={styles.middleContainer}>
@@ -36,17 +34,13 @@ function Revendeur0({ navigation }) {
                   acarruthersfarrier@gmail.com
                 </Text>
             </View>
-        </View>
-  );
-}
+          </View>
 
-function Revendeur1({ navigation }) {
-  return(
-    <View style={styles.container}>
+          <View style={styles.container}>
 
             <Image
                 style={styles.image}
-                source={require('./src/assets/images/1.jpeg')}
+                source={require('../../../src/assets/images/1.jpeg')}
             />
 
             <View style={styles.middleContainer}>
@@ -72,17 +66,13 @@ function Revendeur1({ navigation }) {
                   https://valleyfarrier.com/shop/
                 </Text>
             </View>
-        </View>
-  );
-}
+          </View>
 
-function Revendeur2({ navigation }) {
-  return(
-    <View style={styles.container}>
+          <View style={styles.container}>
 
             <Image
                 style={styles.image}
-                source={require('./src/assets/images/2.png')}
+                source={require('../../../src/assets/images/2.png')}
             />
 
             <View style={styles.middleContainer}>
@@ -109,16 +99,12 @@ function Revendeur2({ navigation }) {
                 </Text>
             </View>
         </View>
-  );
-}
 
-function Revendeur3({ navigation }) {
-  return(
-    <View style={styles.container}>
+        <View style={styles.container}>
 
             <Image
                 style={styles.image}
-                source={require('./src/assets/images/3.png')}
+                source={require('../../../src/assets/images/3.png')}
             />
 
             <View style={styles.middleContainer}>
@@ -142,16 +128,12 @@ function Revendeur3({ navigation }) {
                 </Text>
             </View>
         </View>
-  );
-}
 
-function Revendeur4({ navigation }) {
-  return(
-    <View style={styles.container}>
+        <View style={styles.container}>
 
             <Image
                 style={styles.image}
-                source={require('./src/assets/images/8.jpeg')}
+                source={require('../../../src/assets/images/8.jpeg')}
             />
 
             <View style={styles.middleContainer}>
@@ -169,16 +151,12 @@ function Revendeur4({ navigation }) {
                 </Text>
             </View>
         </View>
-  );
-}
 
-function Revendeur5({ navigation }) {
-  return(
-    <View style={styles.container}>
+        <View style={styles.container}>
 
             <Image
                 style={styles.image}
-                source={require('./src/assets/images/5.png')}
+                source={require('../../../src/assets/images/5.png')}
             />
 
             <View style={styles.middleContainer}>
@@ -205,16 +183,12 @@ function Revendeur5({ navigation }) {
                 </Text>
             </View>
         </View>
-  );
-}
 
-function Revendeur6({ navigation }) {
-  return(
-    <View style={styles.container}>
+        <View style={styles.container}>
 
             <Image
                 style={styles.image}
-                source={require('./src/assets/images/6.png')}
+                source={require('../../../src/assets/images/6.png')}
             />
 
             <View style={styles.middleContainer}>
@@ -241,16 +215,12 @@ function Revendeur6({ navigation }) {
                 </Text>
             </View>
         </View>
-  );
-}
 
-function Revendeur7({ navigation }) {
-  return(
-    <View style={styles.container}>
+        <View style={styles.container}>
 
             <Image
                 style={styles.image}
-                source={require('./src/assets/images/7.jpeg')}
+                source={require('../../../src/assets/images/7.jpeg')}
             />
 
             <View style={styles.middleContainer}>
@@ -274,16 +244,12 @@ function Revendeur7({ navigation }) {
                 </Text>
             </View>
         </View>
-  );
-}
 
-function Revendeur8({ navigation }) {
-  return(
-    <View style={styles.container}>
+        <View style={styles.container}>
 
             <Image
                 style={styles.image}
-                source={require('./src/assets/images/8.jpeg')}
+                source={require('../../../src/assets/images/8.jpeg')}
             />
 
             <View style={styles.middleContainer}>
@@ -304,16 +270,12 @@ function Revendeur8({ navigation }) {
                 </Text>
             </View>
         </View>
-  );
-}
 
-function Revendeur9({ navigation }) {
-  return(
-    <View style={styles.container}>
+        <View style={styles.container}>
 
             <Image
                 style={styles.image}
-                source={require('./src/assets/images/8.jpeg')}
+                source={require('../../../src/assets/images/8.jpeg')}
             />
 
             <View style={styles.middleContainer}>
@@ -337,16 +299,12 @@ function Revendeur9({ navigation }) {
                 </Text>
             </View>
         </View>
-  );
-}
 
-function Revendeur10({ navigation }) {
-  return(
-    <View style={styles.container}>
+        <View style={styles.container}>
 
             <Image
                 style={styles.image}
-                source={require('./src/assets/images/10.jpeg')}
+                source={require('../../../src/assets/images/10.jpeg')}
             />
 
             <View style={styles.middleContainer}>
@@ -373,16 +331,12 @@ function Revendeur10({ navigation }) {
                 </Text>
             </View>
         </View>
-  );
-}
 
-function Revendeur11({ navigation }) {
-  return(
-    <View style={styles.container}>
+        <View style={styles.container}>
 
             <Image
                 style={styles.image}
-                source={require('./src/assets/images/8.jpeg')}
+                source={require('../../../src/assets/images/8.jpeg')}
             />
 
             <View style={styles.middleContainer}>
@@ -406,16 +360,12 @@ function Revendeur11({ navigation }) {
                 </Text>
             </View>
         </View>
-  );
-}
 
-function Revendeur12({ navigation }) {
-  return(
-    <View style={styles.container}>
+        <View style={styles.container}>
 
             <Image
                 style={styles.image}
-                source={require('./src/assets/images/12.jpeg')}
+                source={require('../../../src/assets/images/12.jpeg')}
             />
 
             <View style={styles.middleContainer}>
@@ -439,16 +389,12 @@ function Revendeur12({ navigation }) {
                 </Text>
             </View>
         </View>
-  );
-}
 
-function Revendeur13({ navigation }) {
-  return(
-    <View style={styles.container}>
+        <View style={styles.container}>
 
             <Image
                 style={styles.image}
-                source={require('./src/assets/images/13.png')}
+                source={require('../../../src/assets/images/13.png')}
             />
 
             <View style={styles.middleContainer}>
@@ -472,16 +418,12 @@ function Revendeur13({ navigation }) {
                 </Text>
             </View>
         </View>
-  );
-}
 
-function Revendeur14({ navigation }) {
-  return(
-    <View style={styles.container}>
+        <View style={styles.container}>
 
             <Image
                 style={styles.image}
-                source={require('./src/assets/images/14.png')}
+                source={require('../../../src/assets/images/14.png')}
             />
 
             <View style={styles.middleContainer}>
@@ -511,16 +453,12 @@ function Revendeur14({ navigation }) {
                 </Text>
             </View>
         </View>
-  );
-}
 
-function Revendeur15({ navigation }) {
-  return(
-    <View style={styles.container}>
+        <View style={styles.container}>
 
             <Image
                 style={styles.image}
-                source={require('./src/assets/images/15.jpg')}
+                source={require('../../../src/assets/images/15.jpg')}
             />
 
             <View style={styles.middleContainer}>
@@ -550,142 +488,10 @@ function Revendeur15({ navigation }) {
                 </Text>
             </View>
         </View>
-  );
-}
 
-export default function App(){
-  return (
-    <NavigationContainer>
-      <Stack.Navigator>
-        <Stack.Screen
-        name="Home"
-        component={HomeScreen}
-        options={{ headerShown: false }}
-        />
-        <Stack.Screen
-        name="Revendeur0"
-        component={Revendeur0}
-        options={{ headerShown: false }}
-        />
-        <Stack.Screen
-        name="Revendeur1"
-        component={Revendeur1}
-        options={{ headerShown: false }}
-        />
-        <Stack.Screen
-        name="Revendeur2"
-        component={Revendeur2}
-        options={{ headerShown: false }}
-        />
-        <Stack.Screen
-        name="Revendeur3"
-        component={Revendeur3}
-        options={{ headerShown: false }}
-        />
-        <Stack.Screen
-        name="Revendeur4"
-        component={Revendeur4}
-        options={{ headerShown: false }}
-        />
-        <Stack.Screen
-        name="Revendeur5"
-        component={Revendeur5}
-        options={{ headerShown: false }}
-        />
-        <Stack.Screen
-        name="Revendeur6"
-        component={Revendeur6}
-        options={{ headerShown: false }}
-        />
-        <Stack.Screen
-        name="Revendeur7"
-        component={Revendeur7}
-        options={{ headerShown: false }}
-        />
-        <Stack.Screen
-        name="Revendeur8"
-        component={Revendeur8}
-        options={{ headerShown: false }}
-        />
-        <Stack.Screen
-        name="Revendeur9"
-        component={Revendeur9}
-        options={{ headerShown: false }}
-        />
-        <Stack.Screen
-        name="Revendeur10"
-        component={Revendeur10}
-        options={{ headerShown: false }}
-        />
-        <Stack.Screen
-        name="Revendeur11"
-        component={Revendeur11}
-        options={{ headerShown: false }}
-        />
-        <Stack.Screen
-        name="Revendeur12"
-        component={Revendeur12}
-        options={{ headerShown: false }}
-        />
-        <Stack.Screen
-        name="Revendeur13"
-        component={Revendeur13}
-        options={{ headerShown: false }}
-        />
-        <Stack.Screen
-        name="Revendeur14"
-        component={Revendeur14}
-        options={{ headerShown: false }}
-        />
-        <Stack.Screen
-        name="Revendeur15"
-        component={Revendeur15}
-        options={{ headerShown: false }}
-        />
-        <Stack.Screen
-        name="RevendeurTypes"
-        component={RevendeurTypes}
-        options={{ headerShown: false }}
-        />
-      </Stack.Navigator>
-    </NavigationContainer>
-      
-  );
-  };
+        </View>
+      </ScrollView>
+    );
+};
 
-const styles = StyleSheet.create({
-  container: {
-    flexDirection: 'row',
-    justifyContent: 'center',
-    alignItems: 'center',
-    padding: 20,
-    marginTop: 40,
-},
-image: {
-    height: 70,
-    width: 80,
-    resizeMode: 'contain',
-},
-middleContainer: {
-    flex: 1,
-    marginHorizontal: 10,
-},
-type: {
-    fontWeight: 'bold',
-    fontSize: 18,
-    marginBottom: 5,
-},
-time: {
-    color : '#5D5D5D',
-},
-rightContainer: {
-    width: 100,
-    alignItems: 'flex-end',
-    flexDirection: 'row'
-},
-price: {
-    fontWeight: 'bold',
-    fontSize: 18,
-    marginLeft: 5,
-}
-});
+export default UberTypeRow;
